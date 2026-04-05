@@ -11,4 +11,7 @@ public class Mago extends Tarea {
     public void lanzarHechizo() {
     System.out.println("Lanzando hechizo...");
     }
+    public void recargarMana() {
+    this.mana += 10;
+    }
 }
